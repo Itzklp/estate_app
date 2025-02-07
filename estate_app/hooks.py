@@ -83,17 +83,6 @@ website_route_rules = [
 # 	"filters": "estate_app.utils.jinja_filters"
 # }
 
-jinja = {
-    "methods": [
-        "sqr:estate_app.www.jinja.sqr"
-    ],
-    "filters": [
-        "add:estate_app.www.jinja.add"
-    ]
-}
-
-
-
 # Installation
 # ------------
 
