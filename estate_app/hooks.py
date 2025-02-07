@@ -257,3 +257,10 @@ jinja = {
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+fixtures = [
+    "Agent",
+    "Property",
+    "Amenity Name",
+    "Property Type",
+    "Property Amenity Details"
+]

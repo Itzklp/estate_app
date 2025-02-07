@@ -1,0 +1,252 @@
+[
+ {
+  "amenity_list": [
+   {
+    "amenity_name": "Parking",
+    "parent": "Shree Tower Apartment - 305-0039",
+    "parentfield": "amenity_list",
+    "parenttype": "Property"
+   },
+   {
+    "amenity_name": "club house",
+    "parent": "Shree Tower Apartment - 305-0039",
+    "parentfield": "amenity_list",
+    "parenttype": "Property"
+   },
+   {
+    "amenity_name": "garden",
+    "parent": "Shree Tower Apartment - 305-0039",
+    "parentfield": "amenity_list",
+    "parenttype": "Property"
+   },
+   {
+    "amenity_name": "swimming pool",
+    "parent": "Shree Tower Apartment - 305-0039",
+    "parentfield": "amenity_list",
+    "parenttype": "Property"
+   },
+   {
+    "amenity_name": "football ground",
+    "parent": "Shree Tower Apartment - 305-0039",
+    "parentfield": "amenity_list",
+    "parenttype": "Property"
+   }
+  ],
+  "city": "Junagadh",
+  "discount": 3.5,
+  "docstatus": 0,
+  "doctype": "Property",
+  "grand_total": 9650000.0,
+  "grand_total_gst": 11387000.0,
+  "modified": "2025-02-07 14:38:38.947615",
+  "name": "Shree Tower Apartment - 305-0039",
+  "property_address": "Keshod, 36220",
+  "property_agent": "Kalp Dalsania",
+  "property_description": "This is the Best Property for Family\nIt is also Highest building in Keshod",
+  "property_image": "/files/building.jpg",
+  "property_name": "Shree Tower Apartment - 305",
+  "property_price": 10000000.0,
+  "property_type": "Apartment",
+  "status": "Sale"
+ },
+ {
+  "amenity_list": [
+   {
+    "amenity_name": "Parking",
+    "parent": "Shree Tower Apartment - 307-0042",
+    "parentfield": "amenity_list",
+    "parenttype": "Property"
+   },
+   {
+    "amenity_name": "club house",
+    "parent": "Shree Tower Apartment - 307-0042",
+    "parentfield": "amenity_list",
+    "parenttype": "Property"
+   },
+   {
+    "amenity_name": "garden",
+    "parent": "Shree Tower Apartment - 307-0042",
+    "parentfield": "amenity_list",
+    "parenttype": "Property"
+   },
+   {
+    "amenity_name": "swimming pool",
+    "parent": "Shree Tower Apartment - 307-0042",
+    "parentfield": "amenity_list",
+    "parenttype": "Property"
+   },
+   {
+    "amenity_name": "football ground",
+    "parent": "Shree Tower Apartment - 307-0042",
+    "parentfield": "amenity_list",
+    "parenttype": "Property"
+   }
+  ],
+  "city": "Keshod",
+  "discount": 3.0,
+  "docstatus": 0,
+  "doctype": "Property",
+  "grand_total": 9700000.0,
+  "grand_total_gst": 11446000.0,
+  "modified": "2025-02-07 14:39:08.303049",
+  "name": "Shree Tower Apartment - 307-0042",
+  "property_address": "Keshod, 36220",
+  "property_agent": "Kalp Dalsania",
+  "property_description": "This is the Best Property for Family\nIt is also Highest building in Keshod",
+  "property_image": "/files/building.jpg",
+  "property_name": "Shree Tower Apartment - 307",
+  "property_price": 10000000.0,
+  "property_type": "Apartment",
+  "status": "Sale"
+ },
+ {
+  "amenity_list": [
+   {
+    "amenity_name": "Parking",
+    "parent": "Shree Tower Apartment - 601-0044",
+    "parentfield": "amenity_list",
+    "parenttype": "Property"
+   },
+   {
+    "amenity_name": "club house",
+    "parent": "Shree Tower Apartment - 601-0044",
+    "parentfield": "amenity_list",
+    "parenttype": "Property"
+   },
+   {
+    "amenity_name": "garden",
+    "parent": "Shree Tower Apartment - 601-0044",
+    "parentfield": "amenity_list",
+    "parenttype": "Property"
+   },
+   {
+    "amenity_name": "swimming pool",
+    "parent": "Shree Tower Apartment - 601-0044",
+    "parentfield": "amenity_list",
+    "parenttype": "Property"
+   },
+   {
+    "amenity_name": "football ground",
+    "parent": "Shree Tower Apartment - 601-0044",
+    "parentfield": "amenity_list",
+    "parenttype": "Property"
+   }
+  ],
+  "city": "Keshod",
+  "discount": 3.0,
+  "docstatus": 0,
+  "doctype": "Property",
+  "grand_total": 9700000.0,
+  "grand_total_gst": 11446000.0,
+  "modified": "2025-02-07 14:38:57.955589",
+  "name": "Shree Tower Apartment - 601-0044",
+  "property_address": "Keshod, 36220",
+  "property_agent": "AG-PP-06-02-2025-043",
+  "property_description": "This is the Best Property for Family\nIt is also Highest building in Keshod",
+  "property_image": "/files/building.jpg",
+  "property_name": "Shree Tower Apartment - 601",
+  "property_price": 10000000.0,
+  "property_type": "Apartment",
+  "status": "Sale"
+ },
+ {
+  "amenity_list": [
+   {
+    "amenity_name": "Parking",
+    "parent": "Shree Tower Apartment - 706-0045",
+    "parentfield": "amenity_list",
+    "parenttype": "Property"
+   },
+   {
+    "amenity_name": "club house",
+    "parent": "Shree Tower Apartment - 706-0045",
+    "parentfield": "amenity_list",
+    "parenttype": "Property"
+   },
+   {
+    "amenity_name": "garden",
+    "parent": "Shree Tower Apartment - 706-0045",
+    "parentfield": "amenity_list",
+    "parenttype": "Property"
+   },
+   {
+    "amenity_name": "swimming pool",
+    "parent": "Shree Tower Apartment - 706-0045",
+    "parentfield": "amenity_list",
+    "parenttype": "Property"
+   },
+   {
+    "amenity_name": "football ground",
+    "parent": "Shree Tower Apartment - 706-0045",
+    "parentfield": "amenity_list",
+    "parenttype": "Property"
+   }
+  ],
+  "city": "Keshod",
+  "discount": 3.0,
+  "docstatus": 0,
+  "doctype": "Property",
+  "grand_total": 9700000.0,
+  "grand_total_gst": 11446000.0,
+  "modified": "2025-02-07 14:38:25.580396",
+  "name": "Shree Tower Apartment - 706-0045",
+  "property_address": "Keshod, 36220",
+  "property_agent": "Kalp Dalsania",
+  "property_description": "This is the Best Property for Family\nIt is also Highest building in Keshod",
+  "property_image": "/files/building.jpg",
+  "property_name": "Shree Tower Apartment - 706",
+  "property_price": 10000000.0,
+  "property_type": "Apartment",
+  "status": "Sale"
+ },
+ {
+  "amenity_list": [
+   {
+    "amenity_name": "Parking",
+    "parent": "Shree Tower Apartment - 306-0041",
+    "parentfield": "amenity_list",
+    "parenttype": "Property"
+   },
+   {
+    "amenity_name": "club house",
+    "parent": "Shree Tower Apartment - 306-0041",
+    "parentfield": "amenity_list",
+    "parenttype": "Property"
+   },
+   {
+    "amenity_name": "garden",
+    "parent": "Shree Tower Apartment - 306-0041",
+    "parentfield": "amenity_list",
+    "parenttype": "Property"
+   },
+   {
+    "amenity_name": "swimming pool",
+    "parent": "Shree Tower Apartment - 306-0041",
+    "parentfield": "amenity_list",
+    "parenttype": "Property"
+   },
+   {
+    "amenity_name": "football ground",
+    "parent": "Shree Tower Apartment - 306-0041",
+    "parentfield": "amenity_list",
+    "parenttype": "Property"
+   }
+  ],
+  "city": "Rajkot",
+  "discount": 3.0,
+  "docstatus": 0,
+  "doctype": "Property",
+  "grand_total": 9700000.0,
+  "grand_total_gst": 11446000.0,
+  "modified": "2025-02-07 14:38:48.311670",
+  "name": "Shree Tower Apartment - 306-0041",
+  "property_address": "Keshod, 36220",
+  "property_agent": "Kalp Dalsania",
+  "property_description": "This is the Best Property for Family\nIt is also Highest building in Keshod",
+  "property_image": "/files/building.jpg",
+  "property_name": "Shree Tower Apartment - 705",
+  "property_price": 10000000.0,
+  "property_type": "Apartment",
+  "status": "Sale"
+ }
+]

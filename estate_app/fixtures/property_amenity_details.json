@@ -1,0 +1,252 @@
+[
+ {
+  "amenity_name": "Parking",
+  "docstatus": 0,
+  "doctype": "Property Amenity Details",
+  "modified": "2025-02-07 14:38:38.947615",
+  "name": "Parking",
+  "parent": "Shree Tower Apartment - 305-0039",
+  "parentfield": "amenity_list",
+  "parenttype": "Property"
+ },
+ {
+  "amenity_name": "Parking",
+  "docstatus": 0,
+  "doctype": "Property Amenity Details",
+  "modified": "2025-02-07 14:38:48.311670",
+  "name": "3ggnlpadsh",
+  "parent": "Shree Tower Apartment - 306-0041",
+  "parentfield": "amenity_list",
+  "parenttype": "Property"
+ },
+ {
+  "amenity_name": "Parking",
+  "docstatus": 0,
+  "doctype": "Property Amenity Details",
+  "modified": "2025-02-07 14:39:08.303049",
+  "name": "3lj4r7t30p",
+  "parent": "Shree Tower Apartment - 307-0042",
+  "parentfield": "amenity_list",
+  "parenttype": "Property"
+ },
+ {
+  "amenity_name": "Parking",
+  "docstatus": 0,
+  "doctype": "Property Amenity Details",
+  "modified": "2025-02-07 14:38:57.955589",
+  "name": "nl8u4lhrcd",
+  "parent": "Shree Tower Apartment - 601-0044",
+  "parentfield": "amenity_list",
+  "parenttype": "Property"
+ },
+ {
+  "amenity_name": "Parking",
+  "docstatus": 0,
+  "doctype": "Property Amenity Details",
+  "modified": "2025-02-07 14:38:25.580396",
+  "name": "jor3bavfpv",
+  "parent": "Shree Tower Apartment - 706-0045",
+  "parentfield": "amenity_list",
+  "parenttype": "Property"
+ },
+ {
+  "amenity_name": "club house",
+  "docstatus": 0,
+  "doctype": "Property Amenity Details",
+  "modified": "2025-02-07 14:38:38.947615",
+  "name": "club house",
+  "parent": "Shree Tower Apartment - 305-0039",
+  "parentfield": "amenity_list",
+  "parenttype": "Property"
+ },
+ {
+  "amenity_name": "club house",
+  "docstatus": 0,
+  "doctype": "Property Amenity Details",
+  "modified": "2025-02-07 14:38:48.311670",
+  "name": "3ggnfctbo8",
+  "parent": "Shree Tower Apartment - 306-0041",
+  "parentfield": "amenity_list",
+  "parenttype": "Property"
+ },
+ {
+  "amenity_name": "club house",
+  "docstatus": 0,
+  "doctype": "Property Amenity Details",
+  "modified": "2025-02-07 14:39:08.303049",
+  "name": "3lj4fltapq",
+  "parent": "Shree Tower Apartment - 307-0042",
+  "parentfield": "amenity_list",
+  "parenttype": "Property"
+ },
+ {
+  "amenity_name": "club house",
+  "docstatus": 0,
+  "doctype": "Property Amenity Details",
+  "modified": "2025-02-07 14:38:57.955589",
+  "name": "nl8ujbelom",
+  "parent": "Shree Tower Apartment - 601-0044",
+  "parentfield": "amenity_list",
+  "parenttype": "Property"
+ },
+ {
+  "amenity_name": "club house",
+  "docstatus": 0,
+  "doctype": "Property Amenity Details",
+  "modified": "2025-02-07 14:38:25.580396",
+  "name": "jor3r1401u",
+  "parent": "Shree Tower Apartment - 706-0045",
+  "parentfield": "amenity_list",
+  "parenttype": "Property"
+ },
+ {
+  "amenity_name": "garden",
+  "docstatus": 0,
+  "doctype": "Property Amenity Details",
+  "modified": "2025-02-07 14:38:38.947615",
+  "name": "garden",
+  "parent": "Shree Tower Apartment - 305-0039",
+  "parentfield": "amenity_list",
+  "parenttype": "Property"
+ },
+ {
+  "amenity_name": "garden",
+  "docstatus": 0,
+  "doctype": "Property Amenity Details",
+  "modified": "2025-02-07 14:38:48.311670",
+  "name": "3ggnbgqn95",
+  "parent": "Shree Tower Apartment - 306-0041",
+  "parentfield": "amenity_list",
+  "parenttype": "Property"
+ },
+ {
+  "amenity_name": "garden",
+  "docstatus": 0,
+  "doctype": "Property Amenity Details",
+  "modified": "2025-02-07 14:39:08.303049",
+  "name": "3lj4p310sg",
+  "parent": "Shree Tower Apartment - 307-0042",
+  "parentfield": "amenity_list",
+  "parenttype": "Property"
+ },
+ {
+  "amenity_name": "garden",
+  "docstatus": 0,
+  "doctype": "Property Amenity Details",
+  "modified": "2025-02-07 14:38:57.955589",
+  "name": "nl8ut30ssu",
+  "parent": "Shree Tower Apartment - 601-0044",
+  "parentfield": "amenity_list",
+  "parenttype": "Property"
+ },
+ {
+  "amenity_name": "garden",
+  "docstatus": 0,
+  "doctype": "Property Amenity Details",
+  "modified": "2025-02-07 14:38:25.580396",
+  "name": "jor3gvsdpj",
+  "parent": "Shree Tower Apartment - 706-0045",
+  "parentfield": "amenity_list",
+  "parenttype": "Property"
+ },
+ {
+  "amenity_name": "swimming pool",
+  "docstatus": 0,
+  "doctype": "Property Amenity Details",
+  "modified": "2025-02-07 14:38:38.947615",
+  "name": "swimming pool",
+  "parent": "Shree Tower Apartment - 305-0039",
+  "parentfield": "amenity_list",
+  "parenttype": "Property"
+ },
+ {
+  "amenity_name": "swimming pool",
+  "docstatus": 0,
+  "doctype": "Property Amenity Details",
+  "modified": "2025-02-07 14:38:48.311670",
+  "name": "3ggns8u6as",
+  "parent": "Shree Tower Apartment - 306-0041",
+  "parentfield": "amenity_list",
+  "parenttype": "Property"
+ },
+ {
+  "amenity_name": "swimming pool",
+  "docstatus": 0,
+  "doctype": "Property Amenity Details",
+  "modified": "2025-02-07 14:39:08.303049",
+  "name": "3lj49t5na0",
+  "parent": "Shree Tower Apartment - 307-0042",
+  "parentfield": "amenity_list",
+  "parenttype": "Property"
+ },
+ {
+  "amenity_name": "swimming pool",
+  "docstatus": 0,
+  "doctype": "Property Amenity Details",
+  "modified": "2025-02-07 14:38:57.955589",
+  "name": "nl8uskrti9",
+  "parent": "Shree Tower Apartment - 601-0044",
+  "parentfield": "amenity_list",
+  "parenttype": "Property"
+ },
+ {
+  "amenity_name": "swimming pool",
+  "docstatus": 0,
+  "doctype": "Property Amenity Details",
+  "modified": "2025-02-07 14:38:25.580396",
+  "name": "jor30vo1vu",
+  "parent": "Shree Tower Apartment - 706-0045",
+  "parentfield": "amenity_list",
+  "parenttype": "Property"
+ },
+ {
+  "amenity_name": "football ground",
+  "docstatus": 0,
+  "doctype": "Property Amenity Details",
+  "modified": "2025-02-07 14:38:38.947615",
+  "name": "football ground",
+  "parent": "Shree Tower Apartment - 305-0039",
+  "parentfield": "amenity_list",
+  "parenttype": "Property"
+ },
+ {
+  "amenity_name": "football ground",
+  "docstatus": 0,
+  "doctype": "Property Amenity Details",
+  "modified": "2025-02-07 14:38:48.311670",
+  "name": "3ggn4s4alm",
+  "parent": "Shree Tower Apartment - 306-0041",
+  "parentfield": "amenity_list",
+  "parenttype": "Property"
+ },
+ {
+  "amenity_name": "football ground",
+  "docstatus": 0,
+  "doctype": "Property Amenity Details",
+  "modified": "2025-02-07 14:39:08.303049",
+  "name": "3lj4d5jg1s",
+  "parent": "Shree Tower Apartment - 307-0042",
+  "parentfield": "amenity_list",
+  "parenttype": "Property"
+ },
+ {
+  "amenity_name": "football ground",
+  "docstatus": 0,
+  "doctype": "Property Amenity Details",
+  "modified": "2025-02-07 14:38:57.955589",
+  "name": "nl8uulqems",
+  "parent": "Shree Tower Apartment - 601-0044",
+  "parentfield": "amenity_list",
+  "parenttype": "Property"
+ },
+ {
+  "amenity_name": "football ground",
+  "docstatus": 0,
+  "doctype": "Property Amenity Details",
+  "modified": "2025-02-07 14:38:25.580396",
+  "name": "jor3eqgn7b",
+  "parent": "Shree Tower Apartment - 706-0045",
+  "parentfield": "amenity_list",
+  "parenttype": "Property"
+ }
+]

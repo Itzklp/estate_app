@@ -1,0 +1,22 @@
+[
+ {
+  "agent_image": "/private/files/img1.png",
+  "agent_name": "Vedang Ladania",
+  "docstatus": 0,
+  "doctype": "Agent",
+  "email": "ladani.vedang@gmail.com",
+  "modified": "2025-02-06 12:46:41.285661",
+  "name": "AG-PP-06-02-2025-043",
+  "phone": "+91-9982751541"
+ },
+ {
+  "agent_image": "/private/files/firstfaa8c6.jpeg",
+  "agent_name": "Kalp Dalsania",
+  "docstatus": 0,
+  "doctype": "Agent",
+  "email": "kalpdalsania1421@gmail.com",
+  "modified": "2025-02-05 18:35:28.284342",
+  "name": "Kalp Dalsania",
+  "phone": "+91-9687001314"
+ }
+]

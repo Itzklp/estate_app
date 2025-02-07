@@ -1,0 +1,44 @@
+[
+ {
+  "amenity_name": "outdoor kitchen",
+  "docstatus": 0,
+  "doctype": "Amenity Name",
+  "modified": "2025-02-05 11:56:10.327658",
+  "name": "outdoor kitchen"
+ },
+ {
+  "amenity_name": "swimming pool",
+  "docstatus": 0,
+  "doctype": "Amenity Name",
+  "modified": "2025-02-05 11:35:43.683894",
+  "name": "swimming pool"
+ },
+ {
+  "amenity_name": "club house",
+  "docstatus": 0,
+  "doctype": "Amenity Name",
+  "modified": "2025-02-05 11:35:58.530347",
+  "name": "club house"
+ },
+ {
+  "amenity_name": "garden",
+  "docstatus": 0,
+  "doctype": "Amenity Name",
+  "modified": "2025-02-05 11:36:07.851661",
+  "name": "garden"
+ },
+ {
+  "amenity_name": "football ground",
+  "docstatus": 0,
+  "doctype": "Amenity Name",
+  "modified": "2025-02-05 11:36:26.446112",
+  "name": "football ground"
+ },
+ {
+  "amenity_name": "Parking",
+  "docstatus": 0,
+  "doctype": "Amenity Name",
+  "modified": "2025-02-05 11:48:41.319280",
+  "name": "Parking"
+ }
+]
