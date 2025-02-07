@@ -67,6 +67,10 @@ app_license = "gpl-3.0"
 # Generators
 # ----------
 
+website_route_rules = [
+    {'from_route':'/property/details/<docname>','to_route':'property/details'},
+]
+
 # automatically create page for each record of this doctype
 # website_generators = ["Web Page"]
 
@@ -78,6 +82,17 @@ app_license = "gpl-3.0"
 # 	"methods": "estate_app.utils.jinja_methods",
 # 	"filters": "estate_app.utils.jinja_filters"
 # }
+
+jinja = {
+    "methods": [
+        "sqr:estate_app.www.jinja.sqr"
+    ],
+    "filters": [
+        "add:estate_app.www.jinja.add"
+    ]
+}
+
+
 
 # Installation
 # ------------

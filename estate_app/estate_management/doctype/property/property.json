@@ -1,0 +1,180 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{property_name}-{####}",
+ "creation": "2025-02-05 11:14:52.907548",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "property_name",
+  "property_type",
+  "property_address",
+  "property_image",
+  "status",
+  "city",
+  "column_break_rzey",
+  "property_description",
+  "property_agent",
+  "property_price",
+  "discount",
+  "section_break_myxa",
+  "amenity_list",
+  "property_pricing_section",
+  "grand_total",
+  "grand_total_gst"
+ ],
+ "fields": [
+  {
+   "fieldname": "property_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Property Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "property_address",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Property Address",
+   "reqd": 1
+  },
+  {
+   "fieldname": "property_image",
+   "fieldtype": "Attach Image",
+   "label": "Property Image",
+   "reqd": 1
+  },
+  {
+   "fieldname": "property_description",
+   "fieldtype": "Small Text",
+   "label": "Property Description"
+  },
+  {
+   "fieldname": "property_agent",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Property Agent",
+   "options": "Agent",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_rzey",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_myxa",
+   "fieldtype": "Section Break",
+   "label": "Amenity Details"
+  },
+  {
+   "fieldname": "amenity_list",
+   "fieldtype": "Table",
+   "in_filter": 1,
+   "in_standard_filter": 1,
+   "label": "Amenity List",
+   "options": "Property Amenity Details",
+   "reqd": 1
+  },
+  {
+   "fieldname": "property_type",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Property Type",
+   "options": "Property Type",
+   "reqd": 1
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nSale\nRent\nLease",
+   "reqd": 1
+  },
+  {
+   "fieldname": "property_price",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Property Price",
+   "non_negative": 1,
+   "precision": "3",
+   "reqd": 1
+  },
+  {
+   "fieldname": "discount",
+   "fieldtype": "Percent",
+   "label": "DIscount",
+   "precision": "3",
+   "reqd": 1
+  },
+  {
+   "fieldname": "property_pricing_section",
+   "fieldtype": "Section Break",
+   "label": "Property Pricing"
+  },
+  {
+   "description": "Without Standard 5% GST",
+   "fieldname": "grand_total",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Grand Total",
+   "non_negative": 1,
+   "precision": "3",
+   "read_only": 1
+  },
+  {
+   "description": "With Standard 5% GST",
+   "fieldname": "grand_total_gst",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Grand Total",
+   "non_negative": 1,
+   "precision": "3",
+   "read_only": 1
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Select",
+   "label": "City",
+   "options": "\nKeshod\nJunagadh\nRajkot\nAhmedabad"
+  }
+ ],
+ "image_field": "property_image",
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-02-07 14:38:11.806489",
+ "modified_by": "Administrator",
+ "module": "Estate Management",
+ "name": "Property",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_preview_popup": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

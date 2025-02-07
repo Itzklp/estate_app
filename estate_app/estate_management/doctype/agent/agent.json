@@ -1,0 +1,79 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:AG-PP-{DD}-{MM}-{YYYY}-{###}",
+ "creation": "2025-02-05 11:19:53.031893",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "agent_name",
+  "email",
+  "column_break_qexx",
+  "phone",
+  "agent_image"
+ ],
+ "fields": [
+  {
+   "fieldname": "agent_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Agent Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Email",
+   "options": "Email",
+   "reqd": 1
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Phone",
+   "in_list_view": 1,
+   "label": "Phone",
+   "reqd": 1
+  },
+  {
+   "fieldname": "agent_image",
+   "fieldtype": "Attach Image",
+   "label": "Agent Image",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_qexx",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "image_field": "agent_image",
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-02-05 12:17:56.133586",
+ "modified_by": "Administrator",
+ "module": "Estate Management",
+ "name": "Agent",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "show_preview_popup": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
