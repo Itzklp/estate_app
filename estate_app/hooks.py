@@ -26,27 +26,35 @@ app_license = "gpl-3.0"
 
 # include js, css files in header of desk.html
 # app_include_css = "/assets/estate_app/css/estate_app.css"
-# app_include_js = "/assets/estate_app/js/estate_app.js"
+# app_include_js = "/assets/estate_app/js/test.js"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/estate_app/css/estate_app.css"
-# web_include_js = "/assets/estate_app/js/estate_app.js"
+# web_include_js = "/assets/estate_app/js/test.js"
 
 # include custom scss in every website theme (without file extension ".scss")
 # website_theme_scss = "estate_app/public/scss/website"
 
 # include js, css files in header of web form
-# webform_include_js = {"doctype": "public/js/doctype.js"}
+# webform_include_js = {"Task": "public/js/test.js"}
 # webform_include_css = {"doctype": "public/css/doctype.css"}
 
 # include js in page
-# page_js = {"page" : "public/js/file.js"}
+# page_js = {"background_jobs" : "public/js/test.js"}
 
 # include js in doctype views
 # doctype_js = {"doctype" : "public/js/doctype.js"}
-# doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
+doctype_list_js = {
+    "Student" : "public/js/student_list.js",
+    "Customer" : "public/js/customer_button.js",
+}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
+
+# sounds = [
+#     {"name": "custom", "src": "/assets/app/sound/Task 2.mp4", "volume": 0.2}
+# ]
+
 
 # Svg Icons
 # ------------------
@@ -83,17 +91,28 @@ website_route_rules = [
 # 	"filters": "estate_app.utils.jinja_filters"
 # }
 
+# jenv = {
+#     "methods": "estate_app.jinja.custom_methods.add_custom_jinja_methods_and_filters"
+# }
+
+
 # Installation
 # ------------
 
-# before_install = "estate_app.install.before_install"
-# after_install = "estate_app.install.after_install"
-
+before_install = "estate_app.install.before_install"
+after_install = "estate_app.install.after_install"
+# after_sync = "estate_app.install.after_sync"
+after_migrate = "estate_app.migrate.after_migrate"
 # Uninstallation
 # ------------
 
-# before_uninstall = "estate_app.uninstall.before_uninstall"
-# after_uninstall = "estate_app.uninstall.after_uninstall"
+before_uninstall = "estate_app.uninstall.before_uninstall"
+after_uninstall = "estate_app.uninstall.after_uninstall"
+
+
+
+override_email_send = "estate_app.email.send"
+get_sender_details = "estate_app.email.get_sender_details"
 
 # Integration Setup
 # ------------------
@@ -116,6 +135,15 @@ website_route_rules = [
 # See frappe.core.notifications.get_notification_config
 
 # notification_config = "estate_app.notifications.get_notification_config"
+
+# python module path
+
+#extending Boot info
+# extend_booti  nfo = "estate_app.boot.boot_session"
+
+
+update_website_context = "estate_app.website.website_context"
+
 
 # Permissions
 # -----------
@@ -141,34 +169,22 @@ website_route_rules = [
 # ---------------
 # Hook on document methods and events
 
-# doc_events = {
-# 	"*": {
-# 		"on_update": "method",
-# 		"on_cancel": "method",
-# 		"on_trash": "method"
-# 	}
-# }
+doc_events = {
+	"Customer":{
+        "before_save":"estate_app.customer.before_save",
+    }
+}
 
 # Scheduled Tasks
 # ---------------
 
-# scheduler_events = {
-# 	"all": [
-# 		"estate_app.tasks.all"
-# 	],
-# 	"daily": [
-# 		"estate_app.tasks.daily"
-# 	],
-# 	"hourly": [
-# 		"estate_app.tasks.hourly"
-# 	],
-# 	"weekly": [
-# 		"estate_app.tasks.weekly"
-# 	],
-# 	"monthly": [
-# 		"estate_app.tasks.monthly"
-# 	],
-# }
+scheduler_events = {
+	"corn":{
+        "0 14 * * *":[
+            "estate_app.fix_customer_group_sequence.fix_customer_group_sequence"
+        ]
+    }
+}
 
 # Testing
 # -------
@@ -246,10 +262,10 @@ website_route_rules = [
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
-fixtures = [
-    "Agent",
-    "Property",
-    "Amenity Name",
-    "Property Type",
-    "Property Amenity Details"
-]
+# fixtures = [
+#     "Agent",
+#     "Property",
+#     "Amenity Name",
+#     "Property Type",
+#     "Property Amenity Details"
+# ]

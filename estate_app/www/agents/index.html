@@ -1,2 +1,48 @@
-<h1>{{sqr(5)}}</h1>
-<h1>{{5 | add(10)}}</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agent Form</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light d-flex justify-content-center align-items-center" style="height: 100vh; margin: 0;">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title text-center">Agent Form</h2>
+                        <form id="form-tag">
+                            <div class="form-group">
+                                <label for="agent-name">Agent Name</label>
+                                <input type="text" class="form-control" id="agent-name" name="agent-name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="agent-phone">Phone</label>
+                                <input type="tel" class="form-control" id="agent-phone" name="agent-phone" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="agent-email">Email</label>
+                                <input type="email" class="form-control" id="agent-email" name="agent-email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="agent-image">Agent Image</label>
+                                <input type="file" class="form-control-file" id="agent-image" name="agent-image" accept="image/*">
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="/assets/estate_app/js/index.js"></script>
+
+</body>
+</html>
