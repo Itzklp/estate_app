@@ -161,9 +161,9 @@ update_website_context = "estate_app.website.website_context"
 # ---------------
 # Override standard doctype classes
 
-# override_doctype_class = {
-# 	"ToDo": "custom_app.overrides.CustomToDo"
-# }
+override_doctype_class = {
+	"Sales Invoice": "estate_app.custom.custom_sales_invoice.CustomSalesInvoice"
+}
 
 # Document Events
 # ---------------

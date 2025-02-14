@@ -1,3 +1,6 @@
+# Copyright (c) 2025, Kalp Dalsania and contributors
+# For license information, please see license.txt
+
 import frappe
 
 from send_welcome import  sendmail
@@ -10,3 +13,5 @@ def contactAgent(**args):
     sendmail(doc, args.get("agent_email"), msg, "Property Inquiry", attachments=None)
 
     return "Message sent to agent, They will responce to the earliest."
+
+

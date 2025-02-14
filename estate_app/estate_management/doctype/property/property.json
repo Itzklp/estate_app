@@ -21,7 +21,8 @@
   "amenity_list",
   "property_pricing_section",
   "grand_total",
-  "grand_total_gst"
+  "grand_total_gst",
+  "amended_from"
  ],
  "fields": [
   {
@@ -148,12 +149,23 @@
    "fieldtype": "Select",
    "label": "City",
    "options": "\nKeshod\nJunagadh\nRajkot\nAhmedabad"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Property",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
   }
  ],
  "image_field": "property_image",
  "index_web_pages_for_search": 1,
+ "is_submittable": 1,
  "links": [],
- "modified": "2025-02-07 14:38:11.806489",
+ "modified": "2025-02-12 15:25:34.191775",
  "modified_by": "Administrator",
  "module": "Estate Management",
  "name": "Property",
